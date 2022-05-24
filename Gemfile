@@ -5,6 +5,8 @@ ruby "3.0.4"
 
 gem "rails", "~> 6.1.5", ">= 6.1.5.1"
 
+gem "bcrypt", "3.1.13"
+
 gem "rails-i18n"
 
 gem "mysql2"
