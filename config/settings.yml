@@ -9,7 +9,7 @@ link:
   author: "https://www.michaelhartl.com/"
   news: "https://news.railstutorial.org/"
 validates:
-  valid_email_regex: /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
+  valid_email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
   name_max_length: 50
   email_max_length: 255
   password_min_length: 6

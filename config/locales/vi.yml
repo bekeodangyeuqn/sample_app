@@ -3,6 +3,8 @@ vi:
   vietnam: "Tiếng Việt"
   ruby_on_rails_tutorial: "Hướng dẫn Ruby on rails"
   base_title: "Hướng dẫn Ruby on Rails sample app"
+  welcome: "Chào mừng đến với sample app!"
+  notfound: "Không tìm thấy người dùng"
   static_pages:
     contact:
       title: "Liên hệ"
@@ -35,6 +37,11 @@ vi:
     new:
       title: "Đăng ký"
       description: "Đây sẽ là trang để đăng ký user mới."
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirm: "Xác nhận mật khẩu"
+      submit: "Đăng ký"
   layouts:
     header:
       home: "Trang chủ"
@@ -45,3 +52,7 @@ vi:
       about: "Về chúng tôi"
       contact: "Liên hệ"
       news: "Tin tức"
+  shared:
+    error_messages:
+      des: "Biểu mâu có"
+      error: "lỗi"
