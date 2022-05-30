@@ -27,6 +27,12 @@ gem "config"
 
 gem "bootsnap", ">= 1.4.4", require: false
 
+gem "faker", "2.1.2"
+
+gem "pagy"
+
+gem "figaro"
+
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]
   gem "rubocop", "~> 1.26", require: false

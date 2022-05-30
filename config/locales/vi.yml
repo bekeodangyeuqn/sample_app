@@ -5,6 +5,10 @@ vi:
   base_title: "Hướng dẫn Ruby on Rails sample app"
   welcome: "Chào mừng đến với sample app!"
   notfound: "Không tìm thấy người dùng"
+  profile_update: "Đã cập nhật hồ sơ"
+  please_log_in: "Xin hãy đăng nhập"
+  user_deleted: "Đã xóa người dùng"
+  error_delete: "Lỗi khi xóa"
   static_pages:
     contact:
       title: "Liên hệ"
@@ -42,11 +46,32 @@ vi:
       password: "Mật khẩu"
       confirm: "Xác nhận mật khẩu"
       submit: "Đăng ký"
+    create:
+      log_in_flash: "Email/Mật khẩu không hợp lệ"
+      infoactive: "Xin hãy kiểm tra email để kích hoạt tài khaonr của bạn"
+    edit:
+      edit_user: "Chỉnh sửa người dùng"
+      update_your_profile: "Cập nhật hồ sơ"
+      name: "Tên"
+      password: "Mật khẩu"
+      save_changes: "Lưu thay đổi"
+      confirmation: "Xác nhận"
+      change: "Thay đổi"
+    index:
+      all_users: "Các người dùng"
+    user:
+      delete: "Xóa"
+      data: "Bạn chắc không?"
   layouts:
     header:
       home: "Trang chủ"
       help: "Hỗ trợ"
-      log_in: "Đăng nhập"
+      login: "Đăng nhập"
+      users: "Người dùng"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
+      account: "Tài khoản"
     footer:
       author: "Michael Harlt"
       about: "Về chúng tôi"
@@ -56,3 +81,25 @@ vi:
     error_messages:
       des: "Biểu mâu có"
       error: "lỗi"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      password: "Mật khẩu"
+      email: "Email"
+      new_user: "Người dùng mới?"
+      sign_up_now: "Đăng ký ngay!"
+      remember: "Nhớ tôi trên máy tính này"
+    create:
+      not_activated: "Tài khoản không được kích hoạt. "
+      check: "Kiểm tra email cho link kích hoạt."
+      log_in_flash: "Email/Mật khẩu không hợp lệ"
+  user_mailer:
+    account_activation:
+      hi: "Xin chào!"
+      welcome: "Chào mừng bạn đến với Sample app! Hãy nhấn chuột vào đường dẫn bên dưới để kích hoạt tài khoản:"
+      activate: "Kích hoạt"
+      subject: "Kích hoạt tài khoản"
+  account_activations:
+    edit:
+      invalid: "Link kích hoạt không hợp lệ"
+      activated: "Tài khoản đã được kích hoạt thành công!"
