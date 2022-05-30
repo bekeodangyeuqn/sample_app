@@ -7,6 +7,7 @@ en:
   base_title: "Ruby on Rails tutorial sample app"
   welcome: "Welcome to the sample app!"
   notfound: "Not found user"
+  log_in_flash: "Invalid email/password combination"
   static_pages:
     about:
       title: "About"
@@ -50,6 +51,11 @@ en:
       home: "Home"
       help: "Help"
       log_in: "Log in"
+      user: "User"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      account: "Account"
     footer:
       author: "Michael Harlt"
       about: "About"
@@ -59,3 +65,12 @@ en:
     error_messages:
       des: "The form contains"
       error: "error"
+  sessions:
+    new:
+      login: "Login"
+      password: "Password"
+      email: "Email"
+      new_user: "New user?"
+      sign_up_now: "Sign up now!"
+
+

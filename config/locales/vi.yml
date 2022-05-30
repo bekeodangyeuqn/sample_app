@@ -5,6 +5,7 @@ vi:
   base_title: "Hướng dẫn Ruby on Rails sample app"
   welcome: "Chào mừng đến với sample app!"
   notfound: "Không tìm thấy người dùng"
+  log_in_flash: "Email/Mật khẩu không hợp lệ"
   static_pages:
     contact:
       title: "Liên hệ"
@@ -46,7 +47,12 @@ vi:
     header:
       home: "Trang chủ"
       help: "Hỗ trợ"
-      log_in: "Đăng nhập"
+      login: "Đăng nhập"
+      users: "Người dùng"
+      profile: "Hồ sơ"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
+      account: "Tài khoản"
     footer:
       author: "Michael Harlt"
       about: "Về chúng tôi"
@@ -56,3 +62,10 @@ vi:
     error_messages:
       des: "Biểu mâu có"
       error: "lỗi"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      password: "Mật khẩu"
+      email: "Email"
+      new_user: "Người dùng mới?"
+      sign_up_now: "Đăng ký ngay!"
