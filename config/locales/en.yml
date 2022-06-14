@@ -7,6 +7,11 @@ en:
   base_title: "Ruby on Rails tutorial sample app"
   welcome: "Welcome to the sample app!"
   notfound: "Not found user"
+  log_in_flash: "Invalid email/password combination"
+  profile_update: "Profile updated"
+  please_log_in: "Please login"
+  user_deleted: "User deleted"
+  error_delete: "Error when delete"
   static_pages:
     about:
       title: "About"
@@ -45,11 +50,29 @@ en:
       password: "Password"
       confirm: "Confirmation"
       submit: "Submit"
+    edit:
+      edit_user: "Edit user"
+      update_your_profile: "Update your profile"
+      name: "Name"
+      password: "Password"
+      save_changes: "Save changes"
+      confirmation: "Confirmation"
+      change: "Change"
+    index:
+      all_users: "All users"
+    user:
+      delete: "Delete"
+      data: "You sure?"
   layouts:
     header:
       home: "Home"
       help: "Help"
       log_in: "Log in"
+      user: "User"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
+      account: "Account"
     footer:
       author: "Michael Harlt"
       about: "About"
@@ -59,3 +82,11 @@ en:
     error_messages:
       des: "The form contains"
       error: "error"
+  sessions:
+    new:
+      login: "Login"
+      password: "Password"
+      email: "Email"
+      new_user: "New user?"
+      sign_up_now: "Sign up now!"
+      remember: "Remember me on this computer"
