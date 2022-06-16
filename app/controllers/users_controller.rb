@@ -17,11 +17,11 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t("welcome")
-      redirect_back_or user
+      @user.send_activation_email
+      flash[:info] = t ".infoactive"
+      redirect_to root_url
     else
-      flash.now[:danger] = t("log_in_flash")
+      flash.now[:danger] = t ".log_in_flash"
       render :new
     end
   end
