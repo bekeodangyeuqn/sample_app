@@ -89,6 +89,7 @@ vi:
       new_user: "Người dùng mới?"
       sign_up_now: "Đăng ký ngay!"
       remember: "Nhớ tôi trên máy tính này"
+      forgot_password: "(Quên mật khẩu)"
     create:
       not_activated: "Tài khoản không được kích hoạt. "
       check: "Kiểm tra email cho link kích hoạt."
@@ -99,7 +100,32 @@ vi:
       welcome: "Chào mừng bạn đến với Sample app! Hãy nhấn chuột vào đường dẫn bên dưới để kích hoạt tài khoản:"
       activate: "Kích hoạt"
       subject: "Kích hoạt tài khoản"
+    password_reset:
+      title: "Đặt lại mật khẩu"
+      link: "Đặt lại mật khẩu"
+      subject: "Đặt lại mật khẩu"
+      des1: "Để đặt lại mật khẩu xin hãy nhấn vào liên kết dưới đây:"
+      des2: "Liên kết này sẽ có thời hạn trong vòng hai giờ."
+      des3: "Nếu bạn không có yêu cầu đặt lại mật khẩu, xin hãy bỏ qua email này và mật khẩu của bạn vẫn sẽ giữ nguyên."
   account_activations:
     edit:
       invalid: "Link kích hoạt không hợp lệ"
       activated: "Tài khoản đã được kích hoạt thành công!"
+  password_resets:
+    expired: "Hết hạn đặt lại mật khẩu"
+    new:
+      title: "Quên mật khẩu"
+      name: "Quên mật khẩu"
+      submit: "Xác nhận"
+    create:
+      info_flash: "Email đã được gửi kèm hướng dẫn đặt lại mật khẩu: "
+      danger_flash: "Không tìm thấy địa chỉ email"
+    update:
+      passEmpty: "Không được để trống"
+      updateSucces: "Đặt lại mật khẩu thành công"
+    edit:
+      title: "Đặt lại mật khẩu"
+      name: "Đặt lại mật khẩu"
+      confirm: "Xác nhận"
+      submit: "Cập nhật mật khẩu"
+      password: "Mật khẩu"

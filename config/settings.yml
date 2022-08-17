@@ -16,3 +16,5 @@ validates:
   password_min_length: 6
 image:
   size: 80
+expiration:
+  time: 2

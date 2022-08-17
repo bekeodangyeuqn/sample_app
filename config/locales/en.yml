@@ -92,6 +92,7 @@ en:
       new_user: "New user?"
       sign_up_now: "Sign up now!"
       remember: "Remember me on this computer"
+      forgot_password: "(Forgot password)"
     create:
       not_activated: "Account not activated. "
       check: "Check your email for the activation link."
@@ -102,7 +103,32 @@ en:
       welcome: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
       subject: "Account activation"
+    password_reset:
+      title: "Password reset"
+      link: "Reset password"
+      subject: "Reset password"
+      des1: "To reset your password click the link below:"
+      des2: "This link will expire in two hours."
+      des3: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
   account_activations:
     edit:
       invalid: "Invalid activation link"
       activated: "Account activated successfully!"
+  password_resets:
+    expired: "Password reset has expired."
+    new:
+      title: "Forgot password"
+      name: "Forgot password"
+      submit: "Submit"
+    create:
+      info_flash: "Email sent with password reset instructions:"
+      danger_flash: "Email address not found"
+    update:
+      passEmpty: "can't be empty"
+      updateSucces: "Password reset successfully"
+    edit:
+      title: "Password reset"
+      name: "Password reset"
+      confirm: "Confirm"
+      submit: "Update password"
+      password: "Password"
