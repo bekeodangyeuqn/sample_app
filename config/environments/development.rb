@@ -80,6 +80,7 @@ Rails.application.configure do
     user_name: ENV["mail_user_name"],
     password: ENV["mail_password"],
     address: ENV["mail_address"],
+    domain: ENV["mail_address"],
     port: ENV["mail_port"],
     authentication: :cram_md5,
     enable_starttls_auto: true
